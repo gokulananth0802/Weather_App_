@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="input-field">
+            <input type="text" placeholder="Search city" id="input-city" class="callweather">
+        <button class="callweather"><i class="bx bx-search"></i></button>
+        </div>
+        <div class="past-cli">
+            <div class=""></div>
+        </div>
+         <div class="content">
+            <img width="150px" class="weather-type">
+                <p class="temp"><span class="temperature">25</span> °C</p>
+                <h3 class="city-name">New York</h3>
+                <div class="hum">
+                    <img src="humide.png" width="30px" height="30px">
+                    <p>Humidity <span class="Humidity">--:--</span></p>
+                </div>
+                <div class="win">
+                    <img src="wind.png" width="30px" height="30px">
+                    <p>Wind-Speed<span class="Windspeed">--:--</span></p>
+                </div>
+                 
+         </div>
+         <div class="future-cli">
+
+         </div>
+     </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
